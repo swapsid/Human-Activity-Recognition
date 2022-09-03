@@ -3,7 +3,6 @@
 #### Introduction
 Smart devices have become an integral part of our day-to-day life, from smartphones to IoT devices and smartwatches. They all help our life become convenient in various aspects like fitness, time-tracking, inventory management, and productivity. To provide the services which make their usage desirable, many services feed on data. By collecting the data, the applications can improve their performance benefiting our productivity and service. In this report, we will be picking a few of the data collected from a smartphone's sensors are trying to recognize the activity being performed by the device's owner. By finding what activity the user is performing, we can find the calories burnt or sleep, count.
 
-![A human activity](https://github.com/swapsid/Human-Activity-Recognition/blob/main/0_7_KgQzSXho1nrVNf.jfif) 
 
 #### Problem Statement
 In today's day and age, everyone has a smartphone, and if you did not know already, these little devices have tons of small devices, which we call sensors within them. These sensors are pretty useful for the device, especially when you are playing games. Two such sensors are an accelerometer, which measures acceleration, and a gyroscope, which measures angular velocity. These sensors collect data that can be stored and used to predict the activity the smartphone user is performing.
@@ -30,4 +29,4 @@ Based on experts and engineers, jerk signals are calculated for BodyAcceleration
 We get a feature vector of 561 features and these features are given in the dataset. Each window of readings is a datapoint of 561 features.
 To summarize, we have presented two datasets here, one contains expert-generated features, derived by the domain experts, upon which we will be performing exploratory data analysis and building machine learning models. And the second dataset is the raw 128-dimensional time series where we will use a deep learning model.
 
-Read More here: ![Human Activity Recognition](https://medium.com/@swapsid_/human-activity-recognition-919d8e912be6)
+### Read More here: [Human Activity Recognition](https://medium.com/@swapsid_/human-activity-recognition-919d8e912be6)
